@@ -21,7 +21,10 @@ public class AddPositiveNumber {
     }
 
     public static void main(String[] args) {
-        int[] list = new int[] {3,2,-4,7,-9,1};
+        //Here 'list' is an object
+        //int[] list = new int[] {3,2,-4,7,-9,1};
+        //Here 'list' is a variable
+        int [] list = {1,1,3,-6,2,-8};
         AddPositiveNumber num = new AddPositiveNumber();
         num.add(list);
     }
